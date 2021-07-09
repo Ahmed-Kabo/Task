@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/5ea7a80f7b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>task</title>
+  </head>
+  <body>
+    <!-- start a top nav -->
+    <nav class="main-nav">
+      <div class="conatiner">
+        <div class="flex-nav">
+          <div class="main-nav__logo">
+            <h2 class="logo">
+              <span class="icon"><i class="fas fa-th"></i></span> My Site
+            </h2>
+          </div>
+          <div class="main-nav__items">
+            <div class="main-nav__items--icon">
+              <i class="far fa-dot-circle"></i> <span>10</span>
+            </div>
+            <div class="main-nav__items--icon">
+              <i class="fas fa-comments"></i> <span>10</span>
+            </div>
+            <div class="main-nav__items--icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <div class="main-nav__items--icon main-nav__items--admin">
+              <img src="img/kabo.jpg" alt="kabo" /> Administartor
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end  a top nav -->
+
+    <!-- start a bottom nav -->
+    <div class="search-nav">
+      <div class="conatiner">
+        <div class="flex-nav">
+          <div class="search-nav__project-name"><h3>my projects</h3></div>
+          <div class="search-nav__input">
+            <input type="text" class="form-control" placeholder="search..." />
+            <i><i class="fas fa-search"></i></i>
+          </div>
+        </div>
+        <div class="flex-nav search-nav__right">
+          <div class="search-nav__buttons">
+            <button class="btn main">create</button>
+            <button class="btn">Import</button>
+          </div>
+          <div class="search-nav__filter flex-nav">
+            <div class="search-nav__filter--items">
+              <span><i class="fas fa-filter"></i> filters</span>
+              <span><i class="fas fa-list"></i> group by</span>
+              <span><i class="fas fa-star"></i> favorites</span>
+            </div>
+            <div class="search-nav__filter--list">
+              <span><i class="fas fa-th-large"></i></span>
+              <span><i class="fas fa-bars"></i></span>
+              <span><i class="fas fa-calendar-alt"></i></span>
+              <span><i class="fas fa-chart-bar"></i></span>
+              <span><i class="fas fa-table"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- start a bottom nav -->
+
+    <!-- start grid column and drag and drop -->
+    <div class="projects">
+      <div class="conatiner">
+        <div class="container-left">
+          <div class="grid-col">
+            <div class="projects__items items-list">
+              <div class="projects__items--header flex-nav">
+                <h4>new</h4>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="projects__items--progress">
+                <div class="progress">
+                  <span class="new-one"></span>
+                  <span class="new-two"></span>
+                  <span class="new-three"></span>
+                </div>
+                <span class="price">95.00 $</span>
+              </div>
+              <div
+                class="card list"
+                draggable="true"
+                style="border-left: 3px solid #03a19f"
+              >
+                <h5 class="card__title">
+                  interest your graphic design project
+                </h5>
+                <p class="card__tag"><span class="red"></span> software</p>
+                <p class="card__price">$ 24.000.111, <span>angolitra</span></p>
+                <div class="card__rate">
+                  <div class="rate-star">
+                    <i class="yellow fas fa-star"></i>
+                    <i class="yellow fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="clock"
+                      ><i class="green far fa-clock"></i
+                    ></span>
+                  </div>
+                  <div class="rate-img">
+                    <img src="img/kabo.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="projects__items items-list">
+              <div class="projects__items--header flex-nav">
+                <h4>quialfied</h4>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="projects__items--progress">
+                <div class="progress">
+                  <span class="ql-one"></span>
+                  <span class="ql-two"></span>
+                  <span class="ql-three"></span>
+                </div>
+                <span class="price">12.00 $</span>
+              </div>
+              <div
+                class="card list"
+                draggable="true"
+                style="border-left: 3px solid #75c8ef"
+              >
+                <h5 class="card__title">
+                  interest your graphic design project
+                </h5>
+                <p class="card__tag"><span class="blue"></span> software</p>
+                <p class="card__price">$ 24.000.111, <span>angolitra</span></p>
+                <div class="card__rate">
+                  <div class="rate-star">
+                    <i class="yellow fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="clock"><i class="red far fa-clock"></i></span>
+                  </div>
+                  <div class="rate-img">
+                    <img src="img/kabo.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="projects__items items-list">
+              <div class="projects__items--header flex-nav">
+                <h4>propostion</h4>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="projects__items--progress">
+                <div class="progress">
+                  <span class="pro-one"></span>
+                  <span class="pro-two"></span>
+                  <span class="pro-three"></span>
+                </div>
+                <span class="price">90.00 $</span>
+              </div>
+              <div
+                class="card list"
+                draggable="true"
+                style="border-left: 3px solid #e06860"
+              >
+                <h5 class="card__title">
+                  interest your graphic design project
+                </h5>
+                <p class="card__tag"><span class="red"></span> software</p>
+                <p class="card__price">$ 24.000.111, <span>angolitra</span></p>
+                <div class="card__rate">
+                  <div class="rate-star">
+                    <i class="yellow fas fa-star"></i>
+                    <i class="yellow fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="clock"><i class="red far fa-clock"></i></span>
+                  </div>
+                  <div class="rate-img">
+                    <img src="img/kabo.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="projects__items items-list">
+              <div class="projects__items--header flex-nav">
+                <h4>negotiation</h4>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="projects__items--progress">
+                <div class="progress">
+                  <span class="no-one"></span>
+                  <span class="no-two"></span>
+                  <span class="no-three"></span>
+                </div>
+                <span class="price">100.00 $</span>
+              </div>
+              <div
+                class="card list"
+                draggable="true"
+                style="border-left: 3px solid #fdba00"
+              >
+                <h5 class="card__title">
+                  interest your graphic design project
+                </h5>
+                <p class="card__tag"><span class="blue"></span> software</p>
+                <p class="card__price">$ 24.000.111, <span>angolitra</span></p>
+                <div class="card__rate">
+                  <div class="rate-star">
+                    <i class="yellow fas fa-star"></i>
+                    <i class="yellow fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="clock"
+                      ><i class="green far fa-clock"></i
+                    ></span>
+                  </div>
+                  <div class="rate-img">
+                    <img src="img/kabo.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="projects__items items-list">
+              <div class="projects__items--header flex-nav">
+                <h4>won</h4>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="projects__items--progress">
+                <div class="progress">
+                  <span class="won-one"></span>
+                  <span class="won-two"></span>
+                  <span class="won-three"></span>
+                </div>
+                <span class="price">80.00 $</span>
+              </div>
+
+              <div
+                class="card list"
+                draggable="true"
+                style="border-left: 3px solid #75c8ef"
+              >
+                <h5 class="card__title">
+                  interest your graphic design project
+                </h5>
+                <p class="card__tag"><span class="red"></span> software</p>
+                <p class="card__price">$ 24.000.111, <span>angolitra</span></p>
+                <div class="card__rate">
+                  <div class="rate-star">
+                    <i class="yellow fas fa-star"></i>
+                    <i class="yellow fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <span class="clock"
+                      ><i class="green far fa-clock"></i
+                    ></span>
+                  </div>
+                  <div class="rate-img">
+                    <img src="img/kabo.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="add-col">
+          <i class="fas fa-plus"></i>
+          add column
+        </div>
+      </div>
+    </div>
+    <!-- e n d grid column and drag and drop -->
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
